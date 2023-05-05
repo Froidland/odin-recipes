@@ -1,0 +1,37 @@
+h1,
+h2 {
+	text-align: center;
+}
+
+img {
+	max-width: 20em;
+	border: 2em solid black;
+}
+
+body {
+	background-color: darkslategray;
+	color: white;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+}
+
+ul,
+ol,
+p {
+	display: inline-block;
+	text-align: left;
+	max-width: 40em;
+	background-color: teal;
+	border-radius: 1em;
+	padding: 2em;
+}
+
+.steps-container,
+.ingredients-container,
+.description-container {
+	text-align: center;
+}
+

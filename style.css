@@ -1,0 +1,41 @@
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	background-color: rgb(48, 70, 92);
+	gap: 2em;
+	padding: 1em;
+	border-radius: 9999px;
+	margin: 0;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	padding: 0.5em;
+	background-color: slategray;
+	color: white;
+	border-radius: 0.5em;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(80, 89, 97);
+}
+
+body {
+	background-color: darkslategray;
+}
